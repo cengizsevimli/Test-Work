@@ -1,0 +1,65 @@
+.bg-404{
+    background-image: url(../images/404page-bg.png);
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+
+html,body {
+    height: 100%;
+  }
+
+  .text-ops{
+
+    font-family: 'Lato', sans-serif;
+    font-weight: 800;
+    color:#84bc22;
+    font-size: 5rem;
+    
+
+  }
+
+
+
+  .search {
+    width: 100%;
+    position: relative;
+    display: flex;
+    border-radius: 30px;
+  }
+  
+  .searchTerm {
+    width: 100%;
+    border: 3px solid #84bc22;
+    border-right: none;
+    padding: 5px;
+    height: auto;
+    border-radius: 25px 0 0 25px;
+    outline: none;
+    color: #9DBFAF;
+  }
+  
+ 
+  
+  .searchButton {
+    width: auto;
+    height: auto;
+    border: 1px solid #84bc22;
+    background: #84bc22;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 25px 25px 0;
+    cursor: pointer;
+    font-size: 20px;
+   
+  }
+  
+  /*Resize the wrap to see the search bar change!*/
+  .wrap{
+    
+    position: absolute;
+    
+    width: 75%;
+    
+    
+  }
